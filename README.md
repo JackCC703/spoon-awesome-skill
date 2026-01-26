@@ -1,8 +1,15 @@
 # Spoon Awesome Skill
 
-A curated collection of high-quality Claude Code skills for SpoonOS development and Web3 integrations.
+A curated collection of high-quality Claude Code skills for SpoonOS development, Web3 integrations, Web2 services, and development tools.
 
-**57 Python scripts** across **19 skills** covering agent development, blockchain interactions, and production deployment.
+**57+ Python scripts** across **31 skills** in 4 collections:
+
+| Collection | Skills | Status | Purpose |
+|------------|--------|--------|---------|
+| [SpoonOS Skills](./spoonos-skills/) | 8 | 🟢 Complete | Vibe Coding for agent development |
+| [Web3 Skills](./web3-skills/) | 11 | 🟢 Complete | Blockchain integrations for agents |
+| [Web2 Skills](./web2-skills/) | 6 | 🟡 Placeholder | API & service integrations |
+| [Dev Skills](./dev-skills/) | 6 | 🟡 Placeholder | Development workflow tools |
 
 ## Two Skill Collections, Two Purposes
 
@@ -149,6 +156,36 @@ Copy these skills to `.agent/skills/` and your skill agents will automatically l
 | [DAO Tooling](./web3-skills/dao-tooling/) | Snapshot, Tally, Governor | EVM | 4 |
 
 [View Web3 Skills Documentation →](./web3-skills/README.md)
+
+### Web2 Skills (6 skills) — Open for Contributions 🟡
+
+**Traditional API and service integrations for SpoonOS agents.**
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [API Integration](./web2-skills/api-integration/) | REST, GraphQL, webhooks | 🟡 Placeholder |
+| [Database](./web2-skills/database/) | SQL, NoSQL, vector DBs | 🟡 Placeholder |
+| [Messaging](./web2-skills/messaging/) | Slack, Discord, Email, SMS | 🟡 Placeholder |
+| [Cloud Services](./web2-skills/cloud-services/) | AWS, GCP, Azure | 🟡 Placeholder |
+| [Monitoring](./web2-skills/monitoring/) | Prometheus, Grafana, alerts | 🟡 Placeholder |
+| [Storage](./web2-skills/storage/) | S3, GCS, file management | 🟡 Placeholder |
+
+[View Web2 Skills Documentation →](./web2-skills/README.md)
+
+### Dev Skills (6 skills) — Open for Contributions 🟡
+
+**Development workflow and tooling skills for all developers.**
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [Code Review](./dev-skills/code-review/) | Automated review, security scanning | 🟡 Placeholder |
+| [Documentation](./dev-skills/documentation/) | README, API docs, changelogs | 🟡 Placeholder |
+| [Refactoring](./dev-skills/refactoring/) | Extract, rename, dead code removal | 🟡 Placeholder |
+| [Debugging](./dev-skills/debugging/) | Error analysis, log parsing | 🟡 Placeholder |
+| [Testing](./dev-skills/testing/) | Test generation, coverage analysis | 🟡 Placeholder |
+| [Performance](./dev-skills/performance/) | Profiling, optimization | 🟡 Placeholder |
+
+[View Dev Skills Documentation →](./dev-skills/README.md)
 
 ## Example: Building a Web3 Skill Agent
 
@@ -318,11 +355,47 @@ WALLET_ADDRESS=0x...
 
 ## Contributing
 
+We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
+
+### Quick Start
+
 1. Fork the repository
-2. Create a new skill following the format
-3. Add scripts to `scripts/` directory
-4. Update the collection README
-5. Submit a pull request
+2. Choose a skill category:
+   - `spoonos-skills/` - SpoonOS framework patterns
+   - `web3-skills/` - Blockchain integrations
+   - `web2-skills/` - API & service integrations (🟡 Open!)
+   - `dev-skills/` - Development tools (🟡 Open!)
+3. Create your skill with `SKILL.md`, `README.md`, and `scripts/`
+4. Submit PR with **effect demonstration**
+
+### PR Requirements
+
+Your PR must include a demo showing:
+
+```
+═══════════════════════════════════════════════════════════════
+                    SKILL DEMO: your-skill-name
+═══════════════════════════════════════════════════════════════
+
+AGENT: SpoonReactSkill
+MODEL: gpt-4o
+SKILLS LOADED: ["your-skill"]
+
+INPUT PROMPT:
+"Your test query here"
+
+EXECUTION TRACE:
+[Step 1] Tool call: tool_name({params})
+  → Output: {result}
+
+[Step 2] Agent reasoning...
+
+FINAL OUTPUT:
+"The complete agent response"
+═══════════════════════════════════════════════════════════════
+```
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for full requirements.
 
 ## License
 
