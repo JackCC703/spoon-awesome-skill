@@ -2,27 +2,34 @@
 
 Thank you for your interest in contributing! This guide will help you submit high-quality skills.
 
-## Skill Categories
+## Skill Challenge Tracks
 
-| Directory | Purpose | Target Users |
-|-----------|---------|--------------|
-| `spoonos-skills/` | SpoonOS agent development patterns | Developers building agents |
-| `web3-skills/` | Blockchain & DeFi integrations | Web3 developers |
-| `web2-skills/` | Traditional API & service integrations | Full-stack developers |
-| `dev-skills/` | Development workflow & tooling | All developers |
+| Track | Directory | Purpose | Status |
+|-------|-----------|---------|--------|
+| SpoonOS Skills | `spoonos-skills/` | Agent development patterns | 🟢 Complete |
+| Web3 Data Intelligence | `web3-data-intelligence/` | On-chain analysis & insights | 🟢 Complete |
+| Web3 Core Operations | `web3-core-operations/` | Smart contracts & protocols | 🟢 Complete |
+| AI-Enhanced Productivity | `ai-productivity/` | API & automation skills | 🔵 Open |
+| Enterprise & Team | `enterprise-skills/` | Code quality & collaboration | 🔵 Open |
+| Platform Challenge | `platform-challenge/` | Skill routing & coverage | 🆕 Meta |
 
 ## Directory Structure
 
 ```
 spoon-awesome-skill/
-├── spoonos-skills/          # SpoonOS framework skills
+├── spoonos-skills/              # SpoonOS framework skills
 │   └── your-skill/
-├── web3-skills/             # Blockchain integrations
+├── web3-data-intelligence/      # On-chain analysis (Data Intelligence Track)
 │   └── your-skill/
-├── web2-skills/             # Web2 API integrations
+├── web3-core-operations/        # Protocol interactions (Core Operations Track)
 │   └── your-skill/
-├── dev-skills/              # Development tools
+├── ai-productivity/             # AI automation (Productivity Track)
 │   └── your-skill/
+├── enterprise-skills/           # Team tools (Enterprise Track)
+│   └── your-skill/
+├── platform-challenge/          # Meta improvements (Platform Track)
+│   └── submissions/
+│       └── your-name/
 ├── CONTRIBUTING.md
 └── README.md
 ```
@@ -124,12 +131,14 @@ class YourTool(BaseTool):
 ### 1. PR Title Format
 
 ```
-[category] Add skill-name skill
+[track] Add skill-name skill
 
 Examples:
-[web3-skills] Add compound-lending skill
-[web2-skills] Add slack-integration skill
-[dev-skills] Add code-review skill
+[web3-data-intelligence] Add token-analytics skill
+[web3-core-operations] Add compound-lending skill
+[ai-productivity] Add slack-integration skill
+[enterprise-skills] Add code-review skill
+[platform-challenge] Add skill-router tool
 ```
 
 ### 2. PR Description Template
@@ -140,7 +149,7 @@ Your PR description MUST include the following sections:
 ## Skill Overview
 
 - **Name**: your-skill-name
-- **Category**: web3-skills / web2-skills / dev-skills / spoonos-skills
+- **Track**: web3-data-intelligence / web3-core-operations / ai-productivity / enterprise-skills / platform-challenge
 - **Description**: What this skill does
 
 ## Demo: Effect Demonstration
