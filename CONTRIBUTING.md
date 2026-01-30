@@ -4,14 +4,19 @@ Thank you for your interest in contributing! This guide will help you submit hig
 
 ## Skill Challenge Tracks
 
-| Track | Directory | Purpose | Status |
-|-------|-----------|---------|--------|
-| SpoonOS Skills | `spoonos-skills/` | Agent development patterns | 🟢 Complete |
-| Web3 Data Intelligence | `web3-data-intelligence/` | On-chain analysis & insights | 🟢 Complete |
-| Web3 Core Operations | `web3-core-operations/` | Smart contracts & protocols | 🟢 Complete |
+**Submissions are open for all challenge tracks.** SpoonOS Skills is the foundational collection (not a challenge track), but you can still submit issues and PRs for improvements.
+
+| Challenge Track | Directory | Purpose | Status |
+|-----------------|-----------|---------|--------|
+| Web3 Data Intelligence | `web3-data-intelligence/` | On-chain analysis & insights | 🟢 Accepting PRs |
+| Web3 Core Operations | `web3-core-operations/` | Smart contracts & protocols | 🟢 Accepting PRs |
 | AI-Enhanced Productivity | `ai-productivity/` | API & automation skills | 🔵 Open |
 | Enterprise & Team | `enterprise-skills/` | Code quality & collaboration | 🔵 Open |
 | Platform Challenge | `platform-challenge/` | Skill routing & coverage | 🆕 Meta |
+
+| Core Collection | Directory | Purpose | Status |
+|-----------------|-----------|---------|--------|
+| SpoonOS Skills | `spoonos-skills/` | Agent development patterns | 🟢 Issues/PRs welcome |
 
 ## Directory Structure
 

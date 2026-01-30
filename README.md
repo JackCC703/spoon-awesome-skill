@@ -4,14 +4,19 @@ A curated collection of high-quality Claude Code skills for SpoonOS development,
 
 **57+ Python scripts** across **5 Skill Challenge Tracks**:
 
-| Track | Skills | Status | Focus |
-|-------|--------|--------|-------|
-| [SpoonOS Skills](./spoonos-skills/) | 8 | 🟢 Complete | Vibe Coding for agent development |
+| Collection | Skills | Status | Focus |
+|------------|--------|--------|-------|
+| [SpoonOS Skills](./spoonos-skills/) | 8 | 🟢 Core | Vibe Coding for agent development |
+
+| Challenge Track | Skills | Status | Focus |
+|-----------------|--------|--------|-------|
 | [Web3 Data Intelligence](./web3-data-intelligence/) | 2 | 🟢 Complete | On-chain analysis & insights |
 | [Web3 Core Operations](./web3-core-operations/) | 9 | 🟢 Complete | Smart contracts & protocols |
-| [AI-Enhanced Productivity](./ai-productivity/) | 6 | 🔵 Open for Contributions | API & automation |
-| [Enterprise & Team Skills](./enterprise-skills/) | 6 | 🔵 Open for Contributions | Code quality & collaboration |
+| [AI-Enhanced Productivity](./ai-productivity/) | 6 | 🔵 Open for Submissions | API & automation |
+| [Enterprise & Team Skills](./enterprise-skills/) | 6 | 🔵 Open for Submissions | Code quality & collaboration |
 | [Platform Challenge](./platform-challenge/) | - | 🆕 Meta Track | Skill routing & coverage |
+
+> **Note:** SpoonOS Skills is the foundational collection for Vibe Coding, not a challenge track. You can still submit issues and PRs for improvements.
 
 ## Skill Challenge Tracks
 
