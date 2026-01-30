@@ -20,24 +20,35 @@ Thank you for your interest in contributing! This guide will help you submit hig
 
 ## Directory Structure
 
+**Submit your PRs directly to the corresponding track directory.** You may also create your own sub-categories to organize your skills.
+
 ```
 spoon-awesome-skill/
-├── spoonos-skills/              # SpoonOS framework skills
+├── spoonos-skills/              # SpoonOS framework skills (Issues/PRs welcome)
 │   └── your-skill/
 ├── web3-data-intelligence/      # On-chain analysis (Data Intelligence Track)
-│   └── your-skill/
+│   ├── onchain-analysis/        # Existing category
+│   ├── security-analysis/       # Existing category
+│   └── your-new-category/       # Create your own sub-category!
 ├── web3-core-operations/        # Protocol interactions (Core Operations Track)
-│   └── your-skill/
+│   ├── defi/                    # Existing category
+│   └── your-new-category/       # Create your own sub-category!
 ├── ai-productivity/             # AI automation (Productivity Track)
-│   └── your-skill/
+│   └── your-skill-or-category/
 ├── enterprise-skills/           # Team tools (Enterprise Track)
-│   └── your-skill/
+│   └── your-skill-or-category/
 ├── platform-challenge/          # Meta improvements (Platform Track)
 │   └── submissions/
 │       └── your-name/
 ├── CONTRIBUTING.md
 └── README.md
 ```
+
+### Submission Options
+
+1. **Add to existing category**: Submit your skill to an existing sub-directory
+2. **Create new category**: Create a new sub-directory for a new skill category
+3. **Direct submission**: Submit a single skill directly to the track directory
 
 ## Skill Format
 
